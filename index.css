@@ -1,0 +1,89 @@
+body {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    font-family: Karla, sans-serif;
+    background: #1F2937;
+    color: white;
+}
+
+
+div {
+    margin: 20px;
+}
+
+
+h1 {
+    width: 360px;
+    line-height: 1.2;
+}
+
+p {
+    color: #D5D4D8;
+    margin-bottom: 15px;
+}
+
+
+strong {
+    color: #4ADF86;
+}
+
+label {
+    color: #D5D4D8;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+input[type="number"] {
+    background: #273549;
+    color: #4ADF86;
+    border: none;
+    border-radius: 6px;
+    padding: 6px;
+    width: 80px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    accent-color: #4ADF86;
+    margin-right: 6px;
+}
+
+input[type="text"] {
+    background: #273549;
+    color: #4ADF86;
+    border: none;
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    background: #4ADF86;
+    color: #1F2937;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #36c971;
+}
+
+div button {
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        height: auto;
+    }
+}
